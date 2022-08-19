@@ -17,25 +17,30 @@
 
     <main>
         <div class="w-2/5 float-left mt-12 ml-10">
-            <img class="w-100" src="images/money-1.jpg" alt="">
+            <img class="w-100 h-100" src="images/money-1.jpg" alt="">
         </div>
-        <div class="w-2/5 float-left bg-slate-100 mt-12 text-center p-7">
+        <div class="w-2/5 float-left bg-slate-100 mt-12 text-center p-7 mb-8">
 
-            <h2 class="text-2xl font-medium">Income</h2>
-            <label class="font-semibold" for="">income:</label><input id="income"
+            <h2 class="text-2xl font-bold">Income</h2>
+            <label class="font-bold" for="">income:</label><input id="income"
                 class="w-4/5 ml-8 p-2 rounded mt-3 bg-slate-300	" type="text">
-            <h2 class="text-2xl font-medium mt-3">Expense</h2>
-            <label class="font-semibold" for="">Food:</label><input id="food"
+            <h2 class="text-2xl font-bold mt-3">Expense</h2>
+            <label class="font-bold" for="">Food:</label><input id="food"
                 class="w-4/5 ml-8 p-2 rounded mt-3 bg-slate-300	" type="text">
-            <label class="font-semibold" for="">Rent:</label><input id="rent"
+            <label class="font-bold" for="">Rent:</label><input id="rent"
                 class="w-4/5 ml-8 p-2 rounded mt-3 bg-slate-300	" type="text">
-            <label class="font-semibold" for="">Cloth:</label><input id="cloth"
+            <label class="font-bold" for="">Cloth:</label><input id="cloth"
                 class="w-4/5 ml-8 p-2 rounded mt-3 bg-slate-300	" type="text">
             <button id="btn-calculate"
                 class="bg-blue-400 py-3 px-8 mt-3 rounded text-white font-medium">Calculate</button>
-            <h2 class="text-2xl font-medium mt-3">Total Expense: <span id="total-expense"></span></h2>
-            <h2 class="text-2xl font-medium mt-3">Blance: <span id="blance"></span></h2>
-
+            <h2 class="text-2xl font-bold mt-3 p-2">Total Expense: <span id="total-expense"></span></h2>
+            <h2 class="text-2xl font-bold mt-3 p-4">Blance: <span id="blance"></span></h2>
+            <label class="font-bold mt-12" for="">Save:</label> <input id="save"
+                class="w-2/5	 ml-8 p-2 rounded mt-3 bg-slate-300	" type="text">
+            <span class="font-semibold mt-12">%</span>
+            <button id="btn-save" class="bg-blue-400 py-2 px-8 mt-3 rounded text-white font-medium mt-12">Save</button>
+            <h2 id="saving-amoung" class="text-2xl font-bold mt-3 p-7">Saving Amount: <span id="blance"></span></h2>
+            <h2 id="remaing-blance" class="text-2xl font-bold mt-3">Remaining Blance: <span id="blance"></span></h2>
         </div>
     </main>
     <script src="script.js"></script>
